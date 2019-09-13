@@ -1,9 +1,10 @@
 {
   "name": "bs-react-pdf",
   "package-specs": [
-    "amdjs",
-    "es6",
-    "commonjs"
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
   ],
   "sources": [
     {
@@ -16,9 +17,6 @@
           "dir": "node"
         }
       ]
-    },
-    {
-      "dir": "examples"
     }
   ],
   "bs-dependencies": [
@@ -29,7 +27,7 @@
     "-bs-super-errors"
   ],
   "reason": {
-    "react-jsx": 2
+    "react-jsx": 3
   },
   "refmt": 3
 }
